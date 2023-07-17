@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+input {
+    border: solid 1px #363636;
+    border-radius: 2px;
+    height: 30px;
+    width: 250px;
+}
+
+.form-outline {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-outline.form-label {
+    margin-bottom: 5px;
+}
+
+button {
+    border: solid 1px #363636;
+    border-radius: 2px;
+    height: 30px;
+    width: 150px;
+}
+
+.container-fluid {
+    background-color: bisque;
+    height: calc(100vh - 195px);
+}
